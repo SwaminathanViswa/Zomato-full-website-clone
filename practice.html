@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="practice.css" />
+    <title>Zomato Website Clone</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navbar__brand">
+          <!-- the logo of the website goes here-->
+          <img
+            src="images/logo.png"
+            alt="logo for website"
+            class="navbar__logo"
+          />
+        </div>
+        <div class="navbar__items">
+          <!-- the button goes here-->
+          <button class="navbar__button main__button">Order Here</button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <!-- first section containing the Order food button and the image-->
+      <section class="hero__container">
+        <div class="hero__image__container">
+          <img src="images/hero.jpeg" alt="pizza" class="hero__image" />
+          <img
+            src="images/heroShape.svg"
+            alt="background image"
+            class="hero__container__image"
+          />
+          <img
+            src="images/herobgpattren.svg"
+            alt="pattern"
+            class="hero__container__image"
+          />
+        </div>
+        <div class="hero__description">
+          <h1 class="hero__title">
+            Order food from favourite restaurants near you.
+          </h1>
+          <button class="main__button">Order Now</button>
+        </div>
+      </section>
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <!--main section containing the three cards-->
+      <section class="food__card__container">
+        <h1 class="food__card__heading">Explore our menu</h1>
+        <div class="background__image"></div>
+        <div class="food__card">
+          <!-- for burger-->
+          <div class="food__card__image">
+            <img
+              src="images/burger.jpeg"
+              alt="burger"
+              class="food__card__image"
+            />
+            <div class="food__card__description">
+              <h1 class="food__card__desctiption__title">Burgers</h1>
+              <p class="food__card__description__paragraph">
+                Burger King, McDonalds, Burger Place
+                <span style="color: firebrick">+3</span>
+              </p>
+            </div>
+          </div>
+
+          <!-- for pizza-->
+          <div class="food__card__image" id="pizza">
+            <img
+              src="images/pizza.jpeg"
+              alt="pizza"
+              class="food__card__image"
+            />
+            <div class="food__card__description">
+              <h1 class="food__card__desctiption__title">Pizza</h1>
+              <p class="food__card__description__paragraph">
+                Pizza Hit, Domino's Pizza
+                <span style="color: firebrick">+3</span>
+              </p>
+            </div>
+          </div>
+
+          <!-- for ice cream-->
+          <div class="food__card__image">
+            <img
+              src="images/iceCream.jpeg"
+              alt="Ice cream"
+              class="food__card__image"
+            />
+            <div class="food__card__description">
+              <h1 class="food__card__desctiption__title">Ice Creams</h1>
+              <p class="food__card__description__paragraph">
+                Baskin Robins, Ibaco
+                <span style="color: firebrick">+3</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <br />
+      <br />
+      <br />
+
+      <section class="restaurant__container">
+        <div class="restaurant__title">
+          <h1 class="restaurant__heading">Order from 100s of Restaurants</h1>
+        </div>
+        <ul id="final__image__view">
+          <div class="restaurant__row1">
+            <img
+              src="images/restaurant1.jpeg"
+              alt="restaurant1"
+              class="smaller__image"
+            />
+            <img
+              src="images/restaurant2.jpeg"
+              alt="restaurant2"
+              class="larger__image"
+            />
+          </div>
+          <div class="restaurant__row2">
+            <img
+              src="images/restaurant3.jpeg"
+              alt="restaurant3"
+              class="larger__image"
+            />
+            <img
+              src="images/restaurant4.jpeg"
+              alt="restaurant4"
+              class="smaller__image"
+            />
+          </div>
+        </ul>
+      </section>
+
+      <section class="container">
+        <h2 class="quote__description__text">
+          When a man's stomach is full it makes no difference whether he is rich
+          or poor.
+        </h2>
+        <!-- <div class="quote__container">
+          <img
+            src="images/restaurant_table.jpeg"
+            alt="restaurant table"
+            class="quote__photo"
+          />
+          
+        </div> -->
+      </section>
+    </main>
+
+    <br />
+    <br />
+
+    <footer class="footer__container">
+      <nav class="footbar__navbar">
+        <div class="footer__items">
+          <img
+            src="images/logo_final.png"
+            alt="zomato final logo"
+            class="footer__items__image"
+          />
+        </div>
+        <div class="footer__items__description">
+          <ul class="footer__list">
+            <li>Pricing</li>
+            <li>Terms and Conditon</li>
+            <li>Partnership</li>
+            <li>Career</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+  </body>
+</html>
