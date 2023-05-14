@@ -156,6 +156,30 @@ body {
     font-size: 28px;
 }
 
+.email__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email__container__heading {
+    color: #1d3557;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.email__container__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+.emailbox {
+    border: 2px #dd2476 solid;
+    border-radius: 8px;
+}
 .footbar__items {
     width: 100%;
 }
@@ -329,6 +353,22 @@ body {
         }
     }
 
+    .email__container__heading {
+        font-size: 44px;
+    }
+
+    
+    .emailbox {
+        height: 30px;
+        width: 250px;
+        border: 2px #dd2476 solid;
+        border-radius: 8px;
+    }
+
+    #get__updates__button {
+        height: 100%;
+    }
+
 }
 
 @media (min-width: 1024px) {
@@ -355,5 +395,17 @@ body {
 
     .quote__description__text {
         font-size: 44px;
+    }
+
+    .emailbox {
+        height: 50px;
+        width: 300px;
+        border: 2px #dd2476 solid;
+        border-radius: 8px;
+    }
+
+    #get__updates__button {
+        height: 70px;
+        width: 200px;
     }
 }
