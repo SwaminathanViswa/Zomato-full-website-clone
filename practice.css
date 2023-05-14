@@ -409,3 +409,41 @@ body {
         width: 200px;
     }
 }
+
+@media (max-width: 1440px) {
+    .container {
+        max-width: 75%;
+    }
+    .navbar__brand {
+        width: 100px;
+    }
+
+    .main__button {
+        padding: 10px;
+        font-size: 24px;
+    }
+
+    .hero__title {
+        font-size: 60px;
+    }
+
+    .restaurant__heading {
+        font-size: 50px;
+    }
+
+    .quote__description__text {
+        font-size: 44px;
+    }
+
+    .emailbox {
+        height: 50px;
+        width: 300px;
+        border: 2px #dd2476 solid;
+        border-radius: 8px;
+    }
+
+    #get__updates__button {
+        height: 70px;
+        width: 200px;
+    }
+}
